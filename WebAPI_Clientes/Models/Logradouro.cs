@@ -7,7 +7,7 @@ namespace WebAPI_Clientes.Models
     public class Logradouro
     {
         [Key]
-        public int _idLogradouro { get; private set; }
+        public int _idLogradouro { get; set; }
         public string Cep { get; set; }
         public string Endereco { get; set; }
         public string Numero { get; set; }
